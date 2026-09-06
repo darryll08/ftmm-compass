@@ -11,4 +11,16 @@ logs/
 *.log
 .claude-replay.*
 .tmp-*
-.figma/
+.figma/*
+!.figma/make
+.figma/make/*
+!.figma/make/site.json
+.codegraph/
+/Ekstrak/
+
+# Python
+backend/venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*$py.class
